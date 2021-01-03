@@ -93,6 +93,16 @@ body {
   padding: 10px 0;
   margin-bottom: 20px;
 }
+.message__header > a {
+  text-decoration: none;
+  color: #fff;
+  padding: 7px 15px;
+}
+.message__header > a:hover {
+  padding: 7px 15px;
+  background-color: #2f334d;
+  border-radius: 10px;
+}
 
 .form__search {
   display: flex;
@@ -277,12 +287,12 @@ body {
   border: none;
   background: none;
   outline: none;
-  padding: 5 px;
+  padding: 10px 20px;
   flex: 1;
   color: #fff;
 }
 .chat__box--bottom .icon__left > i {
-  margin-left: 10px;
+  margin-left: 20px;
   margin-right: 1px;
 
   font-size: 20px;
@@ -291,7 +301,7 @@ body {
 }
 .chat__box--bottom .icon__right > i {
   margin-left: 1px;
-  margin-right: 10px;
+  margin-right: 20px;
 
   font-size: 20px;
   color: gray;
